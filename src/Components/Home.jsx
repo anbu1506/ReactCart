@@ -11,7 +11,8 @@ export default function Home() {
           <div className=" display-3 text-danger d-block">{items.length}</div>
           <span>
             <button
-              className="btn btn-warning"
+              style={{ marginLeft: "30px" }}
+              className="btn btn-warning mt-3"
               onClick={() => {
                 setItems([...items, { id: items.length, count: 0 }]);
               }}
